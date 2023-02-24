@@ -10,11 +10,11 @@ public class MainClass {
         numbers.put("one", 1);
         numbers.put("one", 2);
         numbers.putIfAbsent("one", 3);
-//        System.out.println(numbers.get("one"));
-//        System.out.println(numbers.keySet());
-//        System.out.println(numbers.values());
-//        System.out.println(numbers.entrySet());
-//        System.out.println(numbers.getOrDefault("one",2));
+        System.out.println(numbers.get("one"));
+        System.out.println(numbers.keySet());
+        System.out.println(numbers.values());
+        System.out.println(numbers.entrySet());
+        System.out.println(numbers.getOrDefault("one",2));
         numbers.replace("one",11);
         numbers.replace("one",11,22);
 //        System.out.println(numbers);
