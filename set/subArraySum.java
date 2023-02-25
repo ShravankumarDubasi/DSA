@@ -15,7 +15,7 @@ public class subArraySum {
         for (int i=0;i<a.length;i++) {
             xor = xor ^ a[i];
             if(xor==target){
-                count++; 
+                count++;
             }
            if (set.get(xor ^ target)!=null) {
                count = count +  set.get(xor ^ target);
